@@ -1,3 +1,23 @@
 body {
-	color: red;
+	background: hsl(25, 47%, 10%);
+	color: #fff;
+	font-family: "Helvetica", sans-serif;
+	text-align: center;
+}
+
+.slider {
+	display: block;
+
+	transform: rotate(0deg);
+}
+
+.eye-container {
+	margin: 0 auto;
+}
+
+.eye {
+	border-radius: 50px;
+	margin-top: 5px;
+
+	filter: blur(25px);
 }

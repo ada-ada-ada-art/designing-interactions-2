@@ -4,10 +4,43 @@
 	<meta charset="utf-8">
 	<meta name='viewport' content='initial-scale=1.0, user-scalable=no'/>
 	<title>Coffee vs. Feelings</title>
+
+	<!-- Javascript -->
+	<script src="jquery-3.3.1.js"></script>
+	<script src="main.js"></script>
+
+	<!-- Styling -->
 	<link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 	<h2>Coffee vs. Feelings</h2>
-	<script src="main.js"></script>
+
+	<h3>How straight do your guts feel?</h3>
+	<div class="slider">
+		<input type="range" name="1" min="-90" max="90">
+	</div>
+	<div class="slider">
+		<input type="range" name="2" min="-90" max="90">
+	</div>
+	<div class="slider">
+		<input type="range" name="3" min="-90" max="90">
+	</div>
+	<div class="slider">
+		<input type="range" name="4" min="-90" max="90">
+	</div>
+	
+	<h3>How alert are you?</h3>
+	<button class="alert-button">Click me to set alertness</button>
+	<div class="eye-container">
+		<img class="eye" src="eye.jpg"/>
+	</div>
+	<button class="save-alert-button">Click here to save alertness</button>
+
+	<h3>How do you prefer your coffee?</h3>
+	<p>Slide from 'A' to 'L' on your keyboard to indicate</p>
+
+	<button class="save-data-button">Save data</button>
+	<button class="clear-data-button">Clear data</button>
+	<p>Amount of data saved: <span class="data-amount">-</span></p>
 </body>
 </html>
