@@ -1,3 +1,4 @@
+/* 	Setup some basic styling for the body */
 body {
     background: hsl(25, 47%, 10%);
     color: #fff;
@@ -5,6 +6,7 @@ body {
     text-align: center;
 }
 
+/* 	Hide the canvas */
 canvas {
     display: none;
 }
