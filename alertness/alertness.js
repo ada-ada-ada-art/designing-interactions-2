@@ -55,7 +55,7 @@ function draw() {
     	// They are saved like this:
     	// [Pixel 1 Red, Pixel 1 Green, Pixel 1 Blue, Pixel 1 Alpha (a.k.a. transparency), Pixel 2 Red, etc.]
     	// For this reason, we have to do some math to jump ahead by four values for each pixel
-      var index = (video.width - x + 1 + (y * video.width)) * 4;
+      var index = (x + (y * video.width)) * 4;
 
       // Red is the first color, i.e. at the index
       var r = video.pixels[index];
